@@ -10,3 +10,4 @@ app = FastAPI(title="Advanced FastAPI Project", version="1.0.0")
 
 app.include_router(auth.router)
 app.include_router(tasks.router)
+app.include_router(auth.router)
