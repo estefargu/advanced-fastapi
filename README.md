@@ -1,0 +1,1 @@
+Advanced FastAPI backend with JWT auth, SQLAlchemy, modular structure.
