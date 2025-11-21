@@ -8,4 +8,4 @@ class User(BaseModel):
     id: str
     username: str
     class Config:
-        orm_mode = True
+        from_attributes = True  # CAMBIO: era orm_mode = True

@@ -11,4 +11,4 @@ class TaskCreate(TaskBase):
 class Task(TaskBase):
     id: str
     class Config:
-        orm_mode = True
+        from_attributes = True  # CAMBIO: era orm_mode = True

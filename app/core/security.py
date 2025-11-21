@@ -2,8 +2,7 @@ from datetime import datetime, timedelta
 from jose import jwt
 from passlib.context import CryptContext  # NUEVO
 
-# NUEVO: Configuración para hashear passwords
-pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
+pwd_context = CryptContext(schemes=["argon2"], deprecated="auto")
 
 # Cambiar estas líneas para usar variables de entorno
 try:
